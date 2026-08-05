@@ -1,8 +1,10 @@
 import streamlit as st
 from dotenv import load_dotenv
-from rag import process_pdf, ask_question
+
 
 load_dotenv()
+
+from rag import process_pdf, ask_question
 
 st.set_page_config(
     page_title="AI PDF Assistant",
